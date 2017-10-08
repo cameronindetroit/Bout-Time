@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04FB76DE1F8622A9000438EF /* GameOverControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB76DD1F8622A9000438EF /* GameOverControllerViewController.swift */; };
 		848465181F7D2AE700E237EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848465171F7D2AE700E237EB /* AppDelegate.swift */; };
 		8484651A1F7D2AE700E237EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848465191F7D2AE700E237EB /* ViewController.swift */; };
 		8484651D1F7D2AE700E237EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8484651B1F7D2AE700E237EB /* Main.storyboard */; };
 		8484651F1F7D2AE700E237EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8484651E1F7D2AE700E237EB /* Assets.xcassets */; };
 		848465221F7D2AE700E237EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848465201F7D2AE700E237EB /* LaunchScreen.storyboard */; };
+		8484652A1F7EC1B900E237EB /* Question Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848465291F7EC1B900E237EB /* Question Provider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04FB76DD1F8622A9000438EF /* GameOverControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameOverControllerViewController.swift; path = ../GameOverControllerViewController.swift; sourceTree = "<group>"; };
 		848465141F7D2AE700E237EB /* Bout Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bout Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		848465171F7D2AE700E237EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		848465191F7D2AE700E237EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		8484651E1F7D2AE700E237EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		848465211F7D2AE700E237EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		848465231F7D2AE700E237EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848465291F7EC1B900E237EB /* Question Provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Question Provider.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				848465171F7D2AE700E237EB /* AppDelegate.swift */,
 				848465191F7D2AE700E237EB /* ViewController.swift */,
+				848465291F7EC1B900E237EB /* Question Provider.swift */,
+				04FB76DD1F8622A9000438EF /* GameOverControllerViewController.swift */,
 				8484651B1F7D2AE700E237EB /* Main.storyboard */,
 				8484651E1F7D2AE700E237EB /* Assets.xcassets */,
 				848465201F7D2AE700E237EB /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8484651A1F7D2AE700E237EB /* ViewController.swift in Sources */,
+				8484652A1F7EC1B900E237EB /* Question Provider.swift in Sources */,
+				04FB76DE1F8622A9000438EF /* GameOverControllerViewController.swift in Sources */,
 				848465181F7D2AE700E237EB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +269,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = J23K84KFZ8;
 				INFOPLIST_FILE = "Bout Time/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -274,6 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = J23K84KFZ8;
 				INFOPLIST_FILE = "Bout Time/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -302,6 +312,7 @@
 				848465281F7D2AE700E237EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
